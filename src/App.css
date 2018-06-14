@@ -1,14 +1,105 @@
 .App {
-  margin-top: 15px;
+  font-family: 'Open Sans' sans-serif;
+  background-color: #eaf4ff;
+}
+#root {
+	background-color: white;
+	height: 150vh;
+}
+.container {
+	width: 100vw !important;
+	padding: 0;
+}
 
+.App .navbar {
+	color: #ccc;
+	border-radius: 0px;
 }
-.App .Navbar {
-  background-color: rgba(0, 0, 0, 1);
-}
+
 .App .navbar-brand {
   font-weight: bold;
+}
+
+.App .navbar-default {
+	background-color: #333;
+	border:none;
+}
+
+.App .header-image {
+	height: 15em;
+	overflow-x: visible;
+	padding: none !important;
+	margin: none !important;
+	background-image: url('https://i.imgur.com/pqPjU6m.jpg');
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-position: 30% 60%;
 }
 
 .img-responsive {
   padding: 10%;
 }
+
+.img-title {
+	position: relative;
+	max-width: 50%;
+	margin-top: 15vh;
+}
+
+.img-title:hover {
+}
+.carousel-container {
+	max-height: 50vh;
+}
+
+.gallery-img {
+	max-height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gallery-img:hover {
+	transform: scale(1.5);
+}
+
+.text-container {
+	margin-top: 10%;
+}
+
+.games-content-container {
+	background-color: #eaf4ff;
+}
+
+.mobileapps-content-container {
+	background-color: #eaf4ff;
+}
+
+.art-content-container {
+	padding: 0% 5% 0% 5%;
+	background-color: #eaf4ff;
+
+}
+.banner-img:hover {
+	transform: scale(1.2);
+	position: 100px;
+}
+.contact-padding {
+	padding-top: 5%;
+}
+
+.home-content-container {
+	margin: 5%;
+}
+
+.home-header-container {
+	background-color: white;
+}
+
+.content-splitter {
+	background-color: white;
+	height: 1vh;
+}
+.footer-padding {
+	padding: 5%;
+}
+

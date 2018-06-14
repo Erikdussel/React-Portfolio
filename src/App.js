@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import logo from './header-image.png';
+import Footer from './components/Footer';
 import Routes from './Routes';
-import fire from './fire';
 import './App.css';
 
 class App extends Component {
@@ -12,8 +12,8 @@ class App extends Component {
   render() {
     return (
       <div className="App container">
-        <div>
-          <img className="img-responsive center-block" src={logo} alt="logo"/>
+        <div className="header-image">
+          <img className="left-block img-title" src={logo} alt="logo"/>
         </div>
         <Navbar fluid collapseOnSelect>
           <Navbar.Header>
@@ -43,10 +43,13 @@ class App extends Component {
           </Navbar.Collapse>
         </Navbar>
         <Routes />
+        <Footer />
       </div>
     );
   }
 }
 
 export default App;
+
+
 
