@@ -10,7 +10,7 @@ export default class Mobileapps extends Component {
 			<div className="text-center">
 				<div className="container fluid mobileapps-content-container">
 					<div className="row">
-						<div className="col-md-6">
+						<div className="col-md-6 col-sm-6 col-lg-6">
 							<Carousel>
 								<Carousel.Item>
 									<img width={150} height={200} alt="login-screen" src="https://i.imgur.com/vVumQFr.png" className="gallery-img"/>
@@ -44,7 +44,7 @@ export default class Mobileapps extends Component {
 								</Carousel.Item>
 							</Carousel>
 						</div>
-						<div className="col-md-6 justify-content-center">
+						<div className="col-md-6 col-sm-6 col-lg-6 justify-content-center">
 							<div className="text-container">
 								<h3> Payment App </h3>
 								<p>

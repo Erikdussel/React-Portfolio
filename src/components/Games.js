@@ -6,7 +6,7 @@ export default class Games extends Component {
 
 	run()
 	{
-		console.log('did run');
+		console.log(`${process.env.PUBLIC_URL}`);
 	}
 
 	render() {

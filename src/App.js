@@ -18,25 +18,25 @@ class App extends Component {
         <Navbar fluid collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
-              <Link to="/">HOME</Link>
+              <Link to="/React-Portfolio/">HOME</Link>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
-              <LinkContainer to="/Mobileapps">
+              <LinkContainer to="/React-Portfolio/Mobileapps">
                 <NavItem>MOBILE APPS</NavItem>
               </LinkContainer>
-              <LinkContainer to="/Games">
+              <LinkContainer to="/React-Portfolio/Games">
                 <NavItem>GAMES</NavItem>
               </LinkContainer>
-              <LinkContainer to="/Art">
+              <LinkContainer to="/React-Portfolio/Art">
                 <NavItem>"ART"</NavItem>
               </LinkContainer>
-              <LinkContainer to="/About">
+              <LinkContainer to="/React-Portfolio/About">
                 <NavItem>ABOUT</NavItem>
               </LinkContainer>
-              <LinkContainer to="/Contact">
+              <LinkContainer to="/React-Portfolio/Contact">
                 <NavItem>CONTACT</NavItem>
               </LinkContainer>
             </Nav>
