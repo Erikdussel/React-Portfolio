@@ -1,0 +1,14 @@
+.App {
+  margin-top: 15px;
+
+}
+.App .Navbar {
+  background-color: rgba(0, 0, 0, 1);
+}
+.App .navbar-brand {
+  font-weight: bold;
+}
+
+.img-responsive {
+  padding: 10%;
+}
