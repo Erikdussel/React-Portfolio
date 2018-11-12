@@ -12,12 +12,29 @@ export default class About extends Component {
 					<div className="row">
 						<div className="col-md-2 col-sm-2 col-lg-2">
 						</div>
-						<div className="col-md-8 col-sm-8 col-lg-8 text-center-block">
-							<p>	
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus sed ipsum sed imperdiet. Aenean faucibus tincidunt enim, ac gravida leo dictum sit amet. Suspendisse varius diam in magna vestibulum consectetur. Curabitur sed augue turpis. Vestibulum bibendum cursus justo, sed tristique est. Vivamus eget rhoncus justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla a rutrum tortor, in malesuada nisl. Nunc eleifend elementum arcu sit amet tincidunt. Vestibulum mattis arcu quis scelerisque varius. Quisque et gravida mi. Mauris non tortor auctor, semper ipsum at, aliquet orci. Quisque sed urna lacus. Morbi sollicitudin placerat tortor semper volutpat. Nulla facilisi.
-							</p>
+						<div className="col-md-8 col-sm-8 col-lg-8">
 						</div>
 						<div className="col-md-2 col-sm-2 col-lg-2">
+						</div>
+					</div>
+					<div className="row">
+						<div className='col-md-1 col-sm-1 col-lg-1'>
+						</div> 
+						<div className="col-md-5 col-sm-5 col-lg-5">
+							<img src="https://i.imgur.com/n8KrEF2.png" className="img-responsive about-image"/>
+						</div>
+						<div className="col-md-5 col-sm-5 col-lg-5 text-center-block about-page">
+							<p>	
+								Hi I'm Erik Dussel and welcome to my website
+							</p>
+							<p>
+								Currently I am studying Game Design at the Hanze in Groningen.
+							</p>
+							<p>
+								In my free time I am a Programmer and Designer. My main expertize is front-end development using various Javascript frameworks like, Ionic-Angular and React.
+							</p>
+						</div>
+						<div className="col-md-1 col-sm-1 col-lg-1">
 						</div>
 					</div>
 				</div>

@@ -55,6 +55,8 @@ export default class Games extends Component {
 							<div className="col-md-3 col-sm-3 col-lg-3">
 							</div>
 						</div>
+						<div className="row content-splitter">
+						</div>
 					</div>
 			</div>
 

@@ -13,6 +13,19 @@ export default class Home extends Component {
 					<div className="row content-splitter">
 					</div>
 					<div className="row home-content-container">
+							<div className="col-md-3 col-sm-3 col-lg-3">
+							</div>
+							<div className="col-md-6 col-sm-6 col-lg-6">
+								<div className="text-container">
+									<h3>Custom Physics Engine</h3>
+									<p>This is a Work-In-Progess PhysicsEngine build with C++ and C. Based on the book <i>Game Physics Cookbook</i> by Gabor Szauer.</p>
+									<a href="https://github.com/Erikdussel/PhysicsEngine" target="_blank"  rel="noopener noreferrer">View the code on Github </a>
+								</div>
+							</div>
+							<div className="col-md-3 col-sm-3 col-lg-3">
+							</div>
+						</div>
+					<div className="row home-content-container">
 						<div className="col-md-2 col-sm-2 col-lg-2">
 						</div>
 						<div className="col-md-4 col-sm-4 col-lg-4 justify-content-center">
