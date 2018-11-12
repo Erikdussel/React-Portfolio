@@ -31,7 +31,7 @@ export default class About extends Component {
 								Currently I am studying Game Design at the Hanze in Groningen.
 							</p>
 							<p>
-								In my free time I am a Programmer and Designer. My main expertize is front-end development using various Javascript frameworks like, Ionic-Angular and React.
+								In my free time I am a Programmer and Designer. My main expertize is front-end development using C#, C++ and various Javascript frameworks like, Ionic-Angular, and React.  
 							</p>
 						</div>
 						<div className="col-md-1 col-sm-1 col-lg-1">

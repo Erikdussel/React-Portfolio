@@ -25,6 +25,8 @@ export default class Home extends Component {
 							<div className="col-md-3 col-sm-3 col-lg-3">
 							</div>
 						</div>
+					<div className="row content-splitter">
+					</div>
 					<div className="row home-content-container">
 						<div className="col-md-2 col-sm-2 col-lg-2">
 						</div>
