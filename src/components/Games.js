@@ -13,6 +13,16 @@ export default class Games extends Component {
 		return (
 			<div className="text-center">
 					<div className="container-fluid games-content-container" id="content-splitter">
+						<div clasName="row">
+							<div className="col-md-3 col-sm-3 col-lg-3">
+							</div>
+							<div className="col-md-6 col-sm-6 col-lg-6">
+								<h3>Custom Physics Engine</h3>
+								<p></p>
+							</div>
+							<div className="col-md-3 col-sm-3 col-lg-3">
+							</div>
+						</div>
 						<div className="row">
 							<div className="col-md-6 col-sm-6 col-lg-6">
 								<Carousel>

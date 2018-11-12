@@ -23,6 +23,15 @@ export default class Art extends Component {
 							<img src="https://i.imgur.com/x3knUk7.png" alt="banner-meat" className="img-responsive banner-img"/>
 						</div>
 					</div>
+					<div className="row">
+						<div className="col-md-3 co-sm-3 col-lg-3">
+						</div>
+						<div className="col-md-6 col-sm-6 col-lg-6">
+							<img src="https://i.imgur.com/RlRmf53.png" alt="sketch-opm" className="img-responsive banner-img" />
+						</div>	
+						<div className="col-md-3 col-sm-3 col-ls-3">
+						</div>
+					</div>
 				</div>
 			</div>
 		);
