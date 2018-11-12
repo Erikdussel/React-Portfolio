@@ -13,16 +13,7 @@ export default class Games extends Component {
 		return (
 			<div className="text-center">
 					<div className="container-fluid games-content-container" id="content-splitter">
-						<div clasName="row">
-							<div className="col-md-3 col-sm-3 col-lg-3">
-							</div>
-							<div className="col-md-6 col-sm-6 col-lg-6">
-								<h3>Custom Physics Engine</h3>
-								<p></p>
-							</div>
-							<div className="col-md-3 col-sm-3 col-lg-3">
-							</div>
-						</div>
+						
 						<div className="row">
 							<div className="col-md-6 col-sm-6 col-lg-6">
 								<Carousel>
@@ -50,6 +41,20 @@ export default class Games extends Component {
 								</div>
 							</div>
 						</div>	
+
+						<div className="row">
+							<div className="col-md-3 col-sm-3 col-lg-3">
+							</div>
+							<div className="col-md-6 col-sm-6 col-lg-6">
+								<div className="text-container">
+									<h3>Custom Physics Engine</h3>
+									<p>This is a Work-In-Progess PhysicsEngine build with C++ and C. Based on the book <i>Game Physics Cookbook</i> by Gabor Szauer.</p>
+									<a href="https://github.com/Erikdussel/PhysicsEngine" target="_blank"  rel="noopener noreferrer">View the code on Github </a>
+								</div>
+							</div>
+							<div className="col-md-3 col-sm-3 col-lg-3">
+							</div>
+						</div>
 					</div>
 			</div>
 
